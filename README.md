@@ -42,7 +42,7 @@ The program presents a series of math challenges based on the most common operat
 1. Clone this repository to your local environment:
 
    ```bash
-   git clone https://github.com/your-username/exercicios-matematicos.git
+   git clone https://github.com/jp9141joao/math-exercise-generator.git
    ```
 
 2. Navigate to the project folder:
