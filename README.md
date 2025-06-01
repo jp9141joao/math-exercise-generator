@@ -1,112 +1,122 @@
-# 🧮 **Gerador de Exercicios de Matematica** 🎲
+# 🧮 **Math Exercise Generator** 🎲
 
-Um programa desenvolvido em Python que permite ao usuário praticar operações matemáticas de forma divertida e interativa. Com ele, você pode realizar exercícios de adição, subtração, multiplicação, divisão, matriz, raiz quadrada, exponenciação, fatoração e equações.
-
----
-
-## 🚀 **Visão Geral do Projeto**
-
-O programa apresenta uma série de desafios matemáticos baseados nas operações mais comuns, com diferentes níveis de dificuldade (fácil, médio e difícil). O usuário seleciona a operação desejada, a quantidade de exercícios e o nível de dificuldade.
+A Python program that allows the user to practice mathematical operations in a fun and interactive way. With it, you can complete exercises in addition, subtraction, multiplication, division, matrix sums, square roots, exponentiation, factorization, and equations.
 
 ---
 
-## 🛠️ **Recursos Principais**
+## 🚀 **Project Overview**
 
-### Funcionalidades
-- **Treinar Soma**: Exercícios de adição simples com níveis variados.
-- **Treinar Subtração**: Exercícios de subtração com verificação de respostas.
-- **Treinar Multiplicação**: Prática de operações multiplicativas.
-- **Treinar Divisão**: Exercícios com divisão, incluindo verificações para números válidos.
-- **Treinar Soma de Elementos de Matriz**: Exercícios com somas de linhas e colunas de matrizes.
-- **Treinar Raiz Quadrada**: Exercícios para praticar raízes quadradas em diferentes intervalos.
-- **Treinar Exponenciação**: Exercícios para cálculos de potência simples.
-- **Treinar Fatoração**: Desafios de fatoração com números diversos.
-- **Treinar Equação de 1º Grau**: Resolver equações lineares simples.
-- **Lista de Exercícios**: Visualização de uma lista de desafios ou práticas.
-- **Menu Intuitivo e Interativo**: Escolhas claras para navegar entre os desafios.
+The program presents a series of math challenges based on the most common operations, with different difficulty levels (easy, medium, and hard). The user selects the desired operation, the number of exercises, and the difficulty level.
 
 ---
 
-## ⚙️ **Como Configurar**
+## 🛠️ **Key Features**
 
-### Pré-requisitos
-- Python 3.x instalado no seu sistema.
-- Ambiente com terminal ou console para execução.
+### Functionalities
+
+* **Practice Addition**: Simple addition exercises with varying levels of difficulty.
+* **Practice Subtraction**: Subtraction exercises with answer validation.
+* **Practice Multiplication**: Multiplication practice problems.
+* **Practice Division**: Division exercises, including checks for valid numbers.
+* **Practice Matrix Element Sums**: Exercises summing rows and columns of matrices.
+* **Practice Square Root**: Exercises to practice square roots over different ranges.
+* **Practice Exponentiation**: Exercises for simple power calculations.
+* **Practice Factorization**: Factorization challenges with various numbers.
+* **Practice 1st‐Degree Equations**: Solve simple linear equations.
+* **Exercise List**: View a list of challenges or practice problems.
+* **Intuitive and Interactive Menu**: Clear options to navigate between challenges.
 
 ---
 
-## ▶️ **Como Executar**
+## ⚙️ **Setup**
 
-1. Clone este repositório no seu ambiente local:
-```bash
-git clone https://github.com/seu-usuario/exercicios-matematicos.git
+### Prerequisites
+
+* Python 3.x installed on your system.
+* A terminal or console environment for running scripts.
+
+---
+
+## ▶️ **How to Run**
+
+1. Clone this repository to your local environment:
+
+   ```bash
+   git clone https://github.com/your-username/exercicios-matematicos.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd exercicios-matematicos
+   ```
+
+3. Run the code in the terminal with:
+
+   ```bash
+   python your_file.py
+   ```
+
+---
+
+## 📚 **Interactive Menu**
+
+After starting the program, the user will see the main menu with options:
+
+```
+* Option Menu *
+1- Practice Addition
+2- Practice Subtraction
+3- Practice Multiplication
+4- Practice Division
+5- Practice Sum of Elements in a Matrix
+6- Practice Square Root
+7- Practice Exponentiation
+8- Practice Factorization
+9- Practice 1st‐Degree Equations
+10- Print Exercise List
+11- Exit
 ```
 
-2. Acesse a pasta do projeto:
-```bash
-cd exercicios-matematicos
-```
+---
 
-3. Execute o código no terminal com:
-```bash
-python seu_arquivo.py
-```
+## 🎮 **Basic Flow**
+
+### 1. **Main Menu**
+
+The user selects an option by entering the corresponding number.
+
+### 2. **Quantity and Difficulty Configuration**
+
+After choosing an option, the user specifies:
+
+* Number of exercises desired.
+* Difficulty level:
+
+  * **1**: Easy
+  * **2**: Medium
+  * **3**: Hard
+
+### 3. **Exercise Execution**
+
+The system runs the selected challenge based on the chosen options and provides feedback on incorrect or correct answers.
 
 ---
 
-## 📚 **Menu Interativo**
+## ⚙️ **Exercises and Challenges**
 
-Após iniciar o programa, o usuário verá o menu principal com opções:
+The main types of challenges include:
 
-```
-*Menu de Opção*
-1- Treinar Soma
-2- Treinar Subtração
-3- Treinar Multiplicação
-4- Treinar Divisão
-5- Treinar a soma dos elementos de uma Matriz
-6- Treinar Raiz Quadrada
-7- Treinar Exponenciação
-8- Treinar Fatoração
-9- Treinar Equação de 1° grau
-10- Imprimir Lista de Exercício
-11- Sair
-```
+1. **Addition**: Basic operations adding small or large numbers according to difficulty.
+2. **Subtraction**: Subtraction involving small or medium numbers.
+3. **Multiplication**: Exercises with simple and larger factors with increasing complexity.
+4. **Division**: Valid-range division exercises with answer verification.
+5. **Matrix**: Sum of rows and columns of 5×5 or 8×8 matrices.
+6. **Square Root**: Challenges involving square root calculations.
+7. **Exponentiation**: Exercises for working with powers of numbers.
+8. **Factorization**: Factorization of simple and medium numbers.
+9. **1st‐Degree Equations**: Solve simple linear equations.
 
 ---
 
-## 🎮 **Fluxo Básico**
-
-### 1. **Menu Principal**
-   O usuário seleciona uma opção com base no número correspondente.
-
-### 2. **Configuração da Quantidade e Dificuldade**
-   Após escolher a opção, o usuário informa:
-   - Quantidade de exercícios desejados.
-   - Nível de dificuldade:
-     - **1**: Fácil
-     - **2**: Médio
-     - **3**: Difícil
-
-### 3. **Execução do Exercício**
-   O sistema executa o desafio selecionado com base nas opções e exibe feedback sobre os erros ou respostas certas.
-
----
-
-## ⚙️ **Exercícios e Desafios**
-
-Os principais tipos de desafios incluem:
-
-1. **Soma**: Operações básicas somando números pequenos ou grandes conforme dificuldade.
-2. **Subtração**: Subtrações envolvendo números pequenos ou médios.
-3. **Multiplicação**: Exercícios com fatores simples e maiores com aumento de complexidade.
-4. **Divisão**: Exercícios em intervalos válidos com verificação.
-5. **Matriz**: Soma de linhas e colunas de matrizes 5x5 ou 8x8.
-6. **Raiz Quadrada**: Desafios envolvendo cálculo de raízes quadradas.
-7. **Exponenciação**: Exercícios para trabalhar potências de números.
-8. **Fatoração**: Fatoração de números simples e médios.
-9. **Equações de 1º grau**: Resolver equações lineares simples.
-
----
-
-Agora você está pronto para testar seus conhecimentos e habilidades matemáticas com este sistema completo de exercícios! 🚀🎯
+Now you are ready to test your math knowledge and skills with this complete exercise system! 🚀🎯
